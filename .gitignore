@@ -1,0 +1,13 @@
+*.pem
+*.key
+.env
+.env.*
+
+**/.terraform/*
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+!**/terraform.example.tfvars
+**/crash.log
+**/crash.*.log
+
